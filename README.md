@@ -61,13 +61,3 @@ Este projeto utiliza o modelo YOLO para detecção de objetos em tempo real usan
 
 ---
 
-## Fluxo do Sistema
-```mermaid
-graph TD
-A[Captura da Webcam] --> B[Pré-processamento da Imagem]
-B --> C[Entrada na Rede YOLO]
-C --> D[Saída da Rede]
-D --> E[Filtro por Confiança]
-E --> F[Non-Maximum Suppression]
-F --> G[Exibição no Frame]
-F --> H[Feedback de Voz]```
